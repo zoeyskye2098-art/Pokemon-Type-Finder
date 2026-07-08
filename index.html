@@ -1,1 +1,33 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Type Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Pokémon Type Finder</h1>
+
+  <div class="container">
+    <label>Type 1</label>
+    <select id="type1">
+      <option value="">Select Type</option>
+    </select>
+
+    <label>Type 2</label>
+    <select id="type2">
+      <option value="">None</option>
+    </select>
+
+    <button id="searchBtn">Find Pokémon</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="pokemon-data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
